@@ -85,6 +85,8 @@ if(name.length === 0 || email.length === 0 || message.length === 0){
               <a href="https://www.instagram.com/volodymyr_koziupa/"target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-instagram" />
               </a>
+
+              
          
         </div>
         <div className="back-form">
@@ -123,3 +125,5 @@ if(name.length === 0 || email.length === 0 || message.length === 0){
     </div>
   );
 }
+
+

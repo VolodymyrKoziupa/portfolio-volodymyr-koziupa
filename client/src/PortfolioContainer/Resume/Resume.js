@@ -53,12 +53,21 @@ const Resume = (props) => {
 
   //here we have
   const programmingSkillsDetails = [
-    { skill: "JavaScript", ratingPercentage: 40 },
-    { skill: "React", ratingPercentage: 25 },
-    { skill: "QA (Jira)", ratingPercentage: 50 },
-    { skill: "SEO", ratingPercentage: 60 },
-    { skill: "Salesforce (Admin)", ratingPercentage: 30 },
- 
+    { skill: "HTML", ratingPercentage: 40 },
+    { skill: "CSS", ratingPercentage: 25 },
+    { skill: "React", ratingPercentage: 50 },
+    { skill: "JavaScript ES6", ratingPercentage: 60 },
+    { skill: "React Native", ratingPercentage: 30 },
+    { skill: "Webpack", ratingPercentage: 40 },
+    { skill: "TypeScript", ratingPercentage: 25 },
+    { skill: "Jira", ratingPercentage: 50 },
+    { skill: "Postman", ratingPercentage: 60 },
+    { skill: "Jasmine", ratingPercentage: 30 },
+    { skill: "Karma", ratingPercentage: 40 },
+    { skill: "jQuery", ratingPercentage: 25 },
+    { skill: "Scss", ratingPercentage: 50 },
+    { skill: "Bootstrap", ratingPercentage: 60 },
+    { skill: "GitHub", ratingPercentage: 30 },
 
   ];
 
@@ -132,47 +141,12 @@ const Resume = (props) => {
             - Conducting interviews and further information support for the candidates
           </span>
           <br />
-          <span className="resume-description-text">
-            - Advertising and promotion of an Agency through social media (Facebook, Youtube, etc.)
-          </span>
-          <br />
-          <span className="resume-description-text">
-            - Creation of graphic and video materials (Adobe Premiere Pro, Adobe Illustrator)
-          </span>
-          <br />
-          <span className="resume-description-text">
-            - Wordpress experience. Creating and managing Website
-
-          </span>
-          <br />
-        </div>
-
-        
-      </div>
-      <div className="experience-container">
-        <ResumeHeading
-          heading={"University Admissions Committee “Ternopil national pedagogical university”"}
-   
-          fromDate={"08/2020"}
-          toDate={"11/2020"}
-        />
-        {/* <div className="experience-description">
-          <span className="resume-description-text">
-            Currently working as MERN stack web and mobile developer and also an
-            online instructor on udemy.
-          </span>
-        </div> */}
-        <div className="experience-description">
-          <span className="resume-description-text">
-            - University Database management and Accounting
-          </span>
-          <br />
          
-          <br />
         </div>
 
         
       </div>
+
       
     </div>,
 
@@ -185,12 +159,12 @@ const Resume = (props) => {
         <div className="skill-parent" key={index}>
           <div className="heading-bullet"></div>
           <span>{skill.skill}</span>
-          <div className="skill-percentage">
+          {/* <div className="skill-percentage">
             <div
               style={{ width: skill.ratingPercentage + "%" }}
               className="active-percentage-bar"
             ></div>
-          </div>
+          </div> */}
         </div>
       ))}
     </div>,

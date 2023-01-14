@@ -16,6 +16,9 @@ export default function Profile() {
               <a href="https://www.instagram.com/volodymyr_koziupa/"target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-instagram" />
               </a>
+              <a href="https://www.linkedin.com/in/volodymyr-koziupa-72087b173/"target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-linkedin" />
+              </a>
               
             </div>
           </div>
@@ -33,7 +36,7 @@ export default function Profile() {
               </h1>
             </span>
             <span className="profile-role-tagline">
-            Beginner Frontend Developer
+            Junior Frontend Developer
             </span>
           </div>
 

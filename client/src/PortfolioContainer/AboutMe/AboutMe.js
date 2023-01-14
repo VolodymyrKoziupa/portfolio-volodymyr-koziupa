@@ -14,7 +14,7 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "Very motivated, self-organized and pursuit of knowledge. I love working in a team, with people and contributing to the overall progress and growth",
+      "I am a self-driven, self-organized and pursuit of knowledge front-end developer with one year of learning and building my own small projects.In addition I have direct experience working in web and mobile application development in a team environment. Seeking a role as a front-end developer so I can use my thorough knowledge of programming frameworks and development software to create modern and unique projects and contribute to the overall progress and growth. Always learning, always putting it to the test.",
     highlights: {
       bullets: [
         "Professional communication skills in a working environmen",
