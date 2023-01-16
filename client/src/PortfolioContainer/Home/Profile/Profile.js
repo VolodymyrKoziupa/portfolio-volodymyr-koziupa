@@ -19,6 +19,9 @@ export default function Profile() {
               <a href="https://www.linkedin.com/in/volodymyr-koziupa-72087b173/"target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-linkedin" />
               </a>
+              <a href="https://github.com/VolodymyrKoziupa"target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-github" />
+              </a>
               
             </div>
           </div>
@@ -37,6 +40,9 @@ export default function Profile() {
             </span>
             <span className="profile-role-tagline">
             Junior Frontend Developer
+            </span>
+            <span className="profile-role-tagline">
+            Volodymyr.koziupa@gmail.com
             </span>
           </div>
 

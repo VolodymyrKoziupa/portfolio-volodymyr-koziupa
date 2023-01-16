@@ -3,6 +3,7 @@
   justify-content: center;
   height: 149px;
   color: var(--white);
+  min-width: 550px;
   
 }
 .header-parent {

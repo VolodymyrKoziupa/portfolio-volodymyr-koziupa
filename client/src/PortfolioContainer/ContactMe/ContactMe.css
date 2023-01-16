@@ -15,6 +15,7 @@
     flex-direction: column;
     justify-content: center;
     background-color: #1f2235;
+    min-width: 550px;
   }
   
   .central-form h2 {

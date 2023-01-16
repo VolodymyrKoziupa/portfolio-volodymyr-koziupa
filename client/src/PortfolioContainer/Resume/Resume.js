@@ -48,7 +48,7 @@ const Resume = (props) => {
     { label: "Work History", logoSrc: "work-history.svg" },
     { label: "Programming Skills", logoSrc: "programming-skills.svg" },
     // { label: "Projects", logoSrc: "projects.svg" },
-    { label: "My Study", logoSrc : "interests.svg" } ,
+    { label: "Experience", logoSrc : "interests.svg" } ,
   ];
 
   //here we have
@@ -100,7 +100,7 @@ const Resume = (props) => {
   ];
 
   const resumeDetails = [
-    <div className="resume-screen-container" key="education">
+    <div className="resume-screen-container programming-education-container" key="education">
       <ResumeHeading
         heading={"Ternopil National Pedagogical University"}
         subHeading={"Master's Degree in History"}
@@ -118,7 +118,7 @@ const Resume = (props) => {
     </div>,
 
     /* WORK EXPERIENCE */
-    <div className="resume-screen-container" key="work-experience">
+    <div className="resume-screen-container programming-work-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
           heading={"Recruitment Agency for Overseas Jobs"}
@@ -183,7 +183,8 @@ const Resume = (props) => {
     //   ))}
     // </div>,
  /* Interests */
- <div className="resume-screen-container" key="interests">
+ <div className="resume-screen-container programming-expirience-container" key="interests">
+  <br/>
  {/* <ResumeHeading
    heading="Teaching"
    description="Apart from being a tech enthusiast and a code writer, i also love to teach people what i know simply because i believe in sharing."
@@ -197,42 +198,44 @@ const Resume = (props) => {
    description="I like to challenge my reflexes a lot while competing in football games, pushing the rank and having interactive gaming sessions excites me the most."
  /> */}
  <ResumeHeading 
- heading="SEO"
-   description="SEO by IT Step Academy, 2021"
+ heading="Fundamentals of Software Testing from Forte Group, 2021"
+   description="Experience in test cases creation, execution, making bug reports"
  />
     <ResumeHeading
- heading="Salesforce (Admin)"
-   description="Salesforce Course Winter 2021 from Forte
-   Group"
+ heading="IT Fundamentals for Ukrainian Switchers from EPAM, 2022"
+   description="Received the basics of computer science"
    
  />
     <ResumeHeading
- heading="Software Testing"
-   description="Fundamentals of Software Testing Course 2021 from Forte
-   Group"
+ heading="The Frontend Developer Career Path on Scrimba, 2022"
+   description="Knowledge of Essential CSS, HTML and JS concepts"
    
  />
     <ResumeHeading
- heading="JavaScript"
-   description="The Complete JavaScript Course 2022: From Zero to Expert by Jonas Schmedtmann"
+ heading="The Complete JavaScript Course: From Zero to Expert by Jonas Schmedtmann, 2022"
+   description="Learned modern ES6 by building real-world projects.Gain understanding how to architect code using flowcharts and common patterns"
    
  />
     <ResumeHeading
-   heading="IT Fundamentals"
-   description="IT Fundamentals for Ukraininan Switchers from EPAM University, 2022"
+   heading="EPAM Global Project Education Competition, 2022"
+   description="Worked in a team environment on application development using React and React Native. Learned how to join the front-end and the back-end by creating APIs. Worked with postman"
    
  />
     <ResumeHeading
- heading="React"
-   description="Learn React by Bob Ziroll, 2022"
-   
+ heading="Front End for Switchers from EPAM, 2022"
+   description="Received skills in using pre- and post-processors Experience working with web servers Hands-on knowledge in creating responsive websites. Understanding of programming paradigm fundamentals (OOP and FP). Experience with manipulating the DOM tree. Practice using different frameworks for creating applications"
+ />
+
+<ResumeHeading
+ heading="TypeScript for Switchers from EPAM, 2022"
+   description="Learned how to work with TS while developing library functionality"
  />
 </div>,
    
   ];
 
   const handleCarousal = (index) => {
-    let offsetHeight = 360;
+    let offsetHeight = 560;
 
     let newCarousalOffset = {
       style: { transform: "translateY(" + index * offsetHeight * -1 + "px)" },

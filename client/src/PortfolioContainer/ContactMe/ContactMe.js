@@ -86,6 +86,13 @@ if(name.length === 0 || email.length === 0 || message.length === 0){
                 <i className="fa fa-instagram" />
               </a>
 
+              <a href="https://www.linkedin.com/in/volodymyr-koziupa-72087b173/"target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-linkedin" />
+              </a>
+              <a href="https://github.com/VolodymyrKoziupa"target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-github" />
+              </a>
+
               
          
         </div>

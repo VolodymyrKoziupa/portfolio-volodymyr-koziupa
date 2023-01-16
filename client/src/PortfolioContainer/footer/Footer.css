@@ -1,17 +1,21 @@
 .scroll-container {
   position: absolute;
   text-align: center;
-  right: 0;
+  right:0;
   margin-right: 9px;
   overflow: hidden;
   flex-direction: column;
   margin-top: -45px;
   z-index: 100;
   cursor: pointer;
+  
 }
 @media only screen and (min-width: 475px) {
   .scroll-container {
     margin-bottom: 10px;
+ 
+
+    
   }
 }
 .btn-scroll {
@@ -22,6 +26,7 @@
   background-color: tomato;
   border-radius: 10px;
   border: none;
+  margin-left: 200px;
 }
 .btn-scroll i:hover {
   transform: rotate(360deg);

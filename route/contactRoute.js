@@ -19,8 +19,10 @@ if(
         service: 'Gmail',
         port: 465,
         auth:{
-            user: process.env.SMTP_USER,
-            pass: process.env.SMTP_PASSWORD,
+            user: 'Volodymyr.koziupa@gmail.com',
+            pass: 'jzwhxmfzphcnsgoq',
+            // user: process.env.SMTP_USER,
+            // pass: process.env.SMTP_PASSWORD,
         },
     });
     let mailOptions = {
